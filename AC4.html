@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Assassin's Creed 4 - Black Flag</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="fiche-title">Assassin's Creed 4 : Black Flag</h1>
+    </header>
+    <main>
+      <section id="left">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/AC4-AV.jpg"
+                class="d-block w-100"
+                alt="face avant du jeu "
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/AC4-AR.jpg"
+                class="d-block w-100"
+                alt="Face arrière du jeu"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/AC4-Perso.jpg"
+                class="d-block w-100"
+                alt="Image du personnage principal du jeu"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <button class="btn-back" onclick="window.location.href = './index.html';">
+            <div class="circle">
+                <div class="arrow"></div>
+            </div>
+            <div class="btn-text">Retour</div>
+        </button>
+      </section>
+      <section id="right">
+        <h2>Informations</h2>
+        <div class="underline"></div>
+        <div class="infos">
+          <div class="infos-left">
+            <p>Editeurs : Ubisoft.</p>
+            <p>Développeurs: Ubisoft Montréal.</p>
+            <p>Genre: Aventure.</p>
+            <p>Thèmes: Historique.</p>
+          </div>
+          <div class="infos-right">
+            <p>Classification: + de 18 ans.</p>
+            <p>Modes : Solo et Multijoueurs.</p>
+            <p>Date de sortie : 29 Octobre 2013.</p>
+            <p class="lang">
+              Langage:
+              <img src="./images/flag-french.png" alt="Drapeau Français" />
+            </p>
+          </div>
+        </div>
+        <h2>Description</h2>
+        <div class="underline"></div>
+        <p class="history">
+          Assassin's Creed IV : Black Flag est un jeu d'action / aventure. Le
+          joueur y incarne Edward Kenway, un pirate sans foi ni loi qui
+          terrorise les Caraïbes au XVIIIème siècle. Sur son navire, le Jackdaw,
+          il peut explorer librement une aire allant de la Floride à la Jamaïque
+          en passant par Cuba et s'attaquer aux convois en quête de butins. La
+          visite de villes comme La Havane ou Kingston sont également au
+          programme, tout comme un mode multijoueur compétitif ou coopératif.
+        </p>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
